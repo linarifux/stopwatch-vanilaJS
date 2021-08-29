@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(160, 104, 104);
+}
+
+.container {
+  max-width: 60vw;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding: 2rem 0;
+}
+
+.time {
+  padding: 5rem 0;
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #000;
+  color: #fff;
+}
